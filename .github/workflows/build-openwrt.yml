@@ -16,9 +16,9 @@ on:
   repository_dispatch:
 #  release:
 #    types: published
-#  push:
-#    branches:
-#      - master
+  push:
+    branches:
+      - master
 #    paths:
 #      - 'r619ac.config'
   schedule:
